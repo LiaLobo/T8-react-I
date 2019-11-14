@@ -1,4 +1,5 @@
 import React from 'react';
+import Comentarios from '../dados/comentarios';
 
 /*
 1. Declarar Componentes DetalhesAutor e ComentarioTexto

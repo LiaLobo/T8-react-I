@@ -3,6 +3,7 @@ import Comentario from './componentes/Comentario';
 import Cat1 from './img/cat1.jpeg';
 import Cat2 from './img/cat2.webp'
 import './App.css';
+import Comentarios from './dados/comentarios';
 
 function App() {
   return (
