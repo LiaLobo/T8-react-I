@@ -1,14 +1,11 @@
-import React from 'react';
-import './Contador';
+import React from 'react'
 
-const BotaoFinalizar = (props) => {
+const BotaoFinalizar = props => {
     return (
-        props.contador !== 0 && (
-            <div>
-              <button onClick={props.onClickFinaliza}>Finalizar Contador</button>
-            </div>
-        )
-    )
+      <div>
+        <button onClick={props.cliqueCongelar}>Finalizar contador</button>
+      </div>
+    );
 }
 
-export default BotaoFinalizar;
+export default BotaoFinalizar
